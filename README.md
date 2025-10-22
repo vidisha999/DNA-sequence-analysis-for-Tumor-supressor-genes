@@ -21,9 +21,9 @@ GC content affects several biological and technical aspects of DNA:
 Importance of GC content in the tumor supressor genes ? 
 
 - Mutation Hotspots: GC-rich regions may be more prone to methylation, especially at CpG sites, which can silence gene expression—a common mechanism in cancer.
-Epigenetic Regulation: Aberrant methylation of GC-rich promoters in tumor suppressor genes can lead to gene silencing, contributing to tumorigenesis.
-Therapeutic Targeting: Knowing GC content helps in designing targeted therapies or diagnostic tools (e.g., PCR primers, probes).
-Comparative Genomics: GC content can be used to compare tumor suppressor genes across species or between normal and cancerous tissues.
+- Epigenetic Regulation: Aberrant methylation of GC-rich promoters in tumor suppressor genes can lead to gene silencing, contributing to tumorigenesis.
+- Therapeutic Targeting: Knowing GC content helps in designing targeted therapies or diagnostic tools (e.g., PCR primers, probes).
+- Comparative Genomics: GC content can be used to compare tumor suppressor genes across species or between normal and cancerous tissues.
 --------> 
 Key components in gene regulation
 promoters 
@@ -59,7 +59,7 @@ Why myethylation matters in cancer research ?
 - Therapeutic targets: Drugs like DNMT inhibitors (e.g., azacitidine) aim to reverse abnormal methylation.
 - Personalized medicine: Methylation profiling helps tailor treatments based on individual epigenetic signatures.
 
-
+Tumorigenesis :  ALso called as carcinogenesis/ oncogenisis, the biological process on how the normal cells transform into cancer cells, which involves series of genetic and epigenetic changes that distrupt the normal cell regulation.
 
 
 
