@@ -59,9 +59,21 @@ Why myethylation matters in cancer research ?
 - Therapeutic targets: Drugs like DNMT inhibitors (e.g., azacitidine) aim to reverse abnormal methylation.
 - Personalized medicine: Methylation profiling helps tailor treatments based on individual epigenetic signatures.
 
-Tumorigenesis :  ALso called as carcinogenesis/ oncogenisis, the biological process on how the normal cells transform into cancer cells, which involves series of genetic and epigenetic changes that distrupt the normal cell regulation.
+Tumorigenesis :  Also called as carcinogenesis/ oncogenisis, the biological process on how the normal cells transform into cancer cells, which involves series of genetic and epigenetic changes that distrupt the normal cell regulation. Three main stages of the tumorigenesis : 
+- Initiation : occurence of geetic mutation caused by carcinogens, radiation or inherited defets.
+- promotion: Mutated cell begins to proliferate abnormally(epigenetic changes can silence tumor supressor genes or activate oncogens.
+- progression : cells aquire more mutations, become morr abnormal and resistant to cell death forming a malignant tumor.
 
+Oncogens : Mutates or overexpressed genes rgar drive cell division.
 
+Epigenetic modification : A chemical change to DNA or to the proteins (histones) that package DNA, which affects how genes are turned on or off — without changing the DNA sequence itself. Types of epigenetic modifications :
+- DNA mytheliation
+- Histone Modificaion : DNA wraps around a protein called histones and how tightly it wraps around the proteisn affect the gene activity.
+ Chemical chnages that effects gene activities :
+    acetylation : open DNA and activates gene
+    deactylation : tightens DNA and silences genes
+    Methylation, phosphorylation, ubiquitination, : Can either activate or supress gene depend on the site
+- Non coding RNA regulation : Small RNAs (like microRNAs) can block or degrade mRNA, preventing a gene from making its protein.
 
 
 
