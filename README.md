@@ -24,8 +24,10 @@ Importance of GC content in the tumor supressor genes ?
 - Epigenetic Regulation: Aberrant methylation of GC-rich promoters in tumor suppressor genes can lead to gene silencing, contributing to tumorigenesis.
 - Therapeutic Targeting: Knowing GC content helps in designing targeted therapies or diagnostic tools (e.g., PCR primers, probes).
 - Comparative Genomics: GC content can be used to compare tumor suppressor genes across species or between normal and cancerous tissues.
---------> 
+  NOTES --------> 
+
 Key components in gene regulation
+
 promoters 
 - Region located in the begining of the gene before  coding region, which acts like the start signal for the transcription process.
 - They are the binding sites for the RNA polymerase and transcription factors that help initiate transcription.
