@@ -55,9 +55,9 @@ Types of abberant methylation:
 
 Why myethylation matters in cancer research ? 
 
-Biomarkers: Aberrant methylation patterns can serve as early indicators of cancer.
-Therapeutic targets: Drugs like DNMT inhibitors (e.g., azacitidine) aim to reverse abnormal methylation.
-Personalized medicine: Methylation profiling helps tailor treatments based on individual epigenetic signatures.
+- Biomarkers: Aberrant methylation patterns can serve as early indicators of cancer.
+- Therapeutic targets: Drugs like DNMT inhibitors (e.g., azacitidine) aim to reverse abnormal methylation.
+- Personalized medicine: Methylation profiling helps tailor treatments based on individual epigenetic signatures.
 
 
 
