@@ -77,11 +77,24 @@ Epigenetic modification : A chemical change to DNA or to the proteins (histones)
     Methylation, phosphorylation, ubiquitination, : Can either activate or supress gene depend on the site
 - Non coding RNA regulation : Small RNAs (like microRNAs) can block or degrade mRNA, preventing a gene from making its protein.
 
+----------
+## Structure of the DNA 
 
+-  DNA/ RNA is double stranded and have two distinct ends. The ends are labeled according to the C atoms in the  sugar moelecule (deoxyribose or ribose) of the each neucleotide.
+-  DNA is double strnded, which rwo strands are complimentary and anti parallel.
+-  DNA follows spsecific base pairing rules ( A->T , T->A , G->C, C-> G)
+-  Forward (coding) strand runs from 5'-> 3'  (eg: 5′ — A  T  G  C  G  T  A — 3′)
+-  reverse complement(template) strand runs from 3'->5' ( eg:   3′ — T  A  C  G  C  A  T — 5′)
 
+What is 5' prime -> 3' prime mean ? 
 
+When DNA is transcripted to mRNA ( messenger RNA) which is  a complementary copy of the DNA template.
+ Its sequence is identical to the RNA strand being synthesized, except that thymine (T) in DNA is replaced by uracil (U) in RNA. 
+ 
+Translation : When the mRNA is translated to a protein, synthesizing the amino acids in the correct ssequence
+During transcription, RNA polymerase reads this strand in the 3' to 5' direction to produce a complementary RNA strand. The RNA sequence is complementary to the template strand and contains uracil (U) instead of thymine (T). 
 
-
+In summary, the template strand is the one actively transcribed into RNA, while the coding strand mirrors the RNA sequence and determines the genetic code for protein synthesis.
 
 
 
