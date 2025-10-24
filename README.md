@@ -81,18 +81,40 @@ Epigenetic modification : A chemical change to DNA or to the proteins (histones)
 ## Structure of the DNA 
 
 -  DNA/ RNA is double stranded and have two distinct ends. The ends are labeled according to the C atoms in the  sugar moelecule (deoxyribose or ribose) of the each neucleotide.
--  DNA is double strnded, which rwo strands are complimentary and anti parallel.
+-  DNA is double stranded, which two strands are complimentary and anti parallel.
 -  DNA follows spsecific base pairing rules ( A->T , T->A , G->C, C-> G)
 -  Forward (coding) strand runs from 5'-> 3'  (eg: 5′ — A  T  G  C  G  T  A — 3′)
 -  reverse complement(template) strand runs from 3'->5' ( eg:   3′ — T  A  C  G  C  A  T — 5′)
 
 What is 5' prime -> 3' prime mean ? 
+- 5′ (five-prime) end → has a phosphate group attached to the 5′ carbon of the sugar.
+- 3′ (three-prime) end → has a hydroxyl group (-OH) on the 3′ carbon of the sugar.
+- So, when DNA is synthesized, new nucleotides are always added to the 3′ end, never to the 5′ end.Hence, DNA (and RNA) grows from 5′ → 3′ direction.
 
-When DNA is transcripted to mRNA ( messenger RNA) which is  a complementary copy of the DNA template.
- Its sequence is identical to the RNA strand being synthesized, except that thymine (T) in DNA is replaced by uracil (U) in RNA. 
+
+### DNA replication 
+- Copy entire DNA molecule before cell division, so that each daughter cell get a complete genome.
+- Helicase unwinds the double strand & DNA polymerase adds comlpementary bases to the 3' of each strand and synthesizes new strands.
+- Both strands are read in opposite directions but synthesized in the 5'-> 3' direction.
+- Molecule 1:
+  Old forward strand (5′→3′)
+  + New complementary reverse strand (3′→5′) --> Lagging strand made of fragments.
+
+Molecule 2:
+  Old reverse strand (3′→5′)
+  + New complementary forward strand (5′→3′) --> Leading strand continuous.
+
+### Transcription 
+- Process of buding a mRNA(messednger RNA) by using the template strand of the DNA ( RNA polymerase binds to promoter of the DNA strand) .
+- RNA is syntehseized in the 5'->3' direction.
+- Its sequence is identical to codinig DNA strand, except that thymine (T) in DNA is replaced by uracil (U) in RNA. 
  
-Translation : When the mRNA is translated to a protein, synthesizing the amino acids in the correct ssequence
-During transcription, RNA polymerase reads this strand in the 3' to 5' direction to produce a complementary RNA strand. The RNA sequence is complementary to the template strand and contains uracil (U) instead of thymine (T). 
+### Transaltion
+
+- Process When the riboseomes biunds to the mRNA at the start codon( AUG) and build a protein using amino acids.
+- Uses mRNA which is complementary to the DNA templpate strand and identical to the DNA coding strand ( DNA isn't directly used).
+- mRNA reads in 5'->3' direction.
+- tRNA molecules bring amino acids matching each codon & Polypeptide chain forms until a stop codon is reached.
 
 In summary, the template strand is the one actively transcribed into RNA, while the coding strand mirrors the RNA sequence and determines the genetic code for protein synthesis.
 
