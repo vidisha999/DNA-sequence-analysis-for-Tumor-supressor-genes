@@ -1,4 +1,103 @@
-# DNA-sequence-analysis
+ # DNA Sequence analysis for the Tumor supressor genes 
+
+ ## Problem statement 
+ The 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---------------------------------------------
 ## Types of chromosomes 
@@ -9,116 +108,6 @@ BRCA1 (Chromosome 17)
 BRCA2 (Chromosome 13)
 CDKN2A( Chromosome 9)
 PTEN (Chromosome 10)
-
-## What is GC content ?
-GC content is the percentage of neucleotides in the DNA molecule that are either guanine(G) or cytosine(C). 
-GC content affects several biological and technical aspects of DNA:
-- Thermal Stability: G-C pairs form three hydrogen bonds (compared to two in A-T pairs), making GC-rich regions more thermally stable.
-- Gene Regulation: GC-rich regions are often found in promoters and CpG islands, which are key in regulating gene expression.
-- Mutation Rates: GC content can influence mutation susceptibility and DNA repair efficiency.
-- Sequencing and PCR Efficiency: High GC content can complicate DNA amplification and sequencing due to stronger bonding.
-
-Importance of GC content in the tumor supressor genes ? 
-
-- Mutation Hotspots: GC-rich regions may be more prone to methylation, especially at CpG sites, which can silence gene expression—a common mechanism in cancer.
-- Epigenetic Regulation: Aberrant methylation of GC-rich promoters in tumor suppressor genes can lead to gene silencing, contributing to tumorigenesis.
-- Therapeutic Targeting: Knowing GC content helps in designing targeted therapies or diagnostic tools (e.g., PCR primers, probes).
-- Comparative Genomics: GC content can be used to compare tumor suppressor genes across species or between normal and cancerous tissues.
-  NOTES --------> 
-
-Key components in gene regulation
-
-promoters 
-- Region located in the begining of the gene before  coding region, which acts like the start signal for the transcription process.
-- They are the binding sites for the RNA polymerase and transcription factors that help initiate transcription.
-- Types of promoters :
-     - Core promoter : contains essential elements like TATA box
-     - regulatory Promoter : includes enhancers and modulators that enhance the gene expression.
-
-CpG islands 
-- Regions in the DNA with higher frequency of CpG sites, where a cytosine(C) is follwoed by a Guanine(G) ; which is linked by a Phosphate hence CpG
-- Always found near or within promoters of genes.
-- Their role in regulation :
--  unmethylated CpG islands : often associate with acive gene expression.
--  Methylated CpG isalnds : can silenece gene expression, found in cancer or epigenetic regulation.
-
-What is DNA methylation ? 
-An epigenetic modification, a chemical chnage to DNA that effects the gene expression without altering the DNA itself. It happens by adittion of the methyl group(-CH3) to the cytosine(C) base in the CpG site. The process is carried by an enzyme called DNA methyltransferases(DNMTs). It affects the followings : 
-- Gene silencing : methylation in CpG islands within promoter regions can block transcription and effectively turn off the gene.
-- Normal function: methylation helps regulate gene expression during development, X-chromosome inactivation, supression of transposable elements.
-
-What is Aberrant Methylation?
-Abnormal patterns of DNA methylation that can disrupts the gene function and contribute the diseases such as cancer. 
-Types of abberant methylation: 
-- Hypermythelation : Excessive methylation in the CpG islands, which can silence the tumor supressor genes leading to uncontrolled cell growth.
-  eg : hypermythelation of BRCA1 or p16INK4a in breast and colon cancers.
-- Hypomethylation : Loss of merhylation across the gene, It can cause genomic instability which leads activation of oncogens and reactivation of transposable elements.
-
-
-Why myethylation matters in cancer research ? 
-
-- Biomarkers: Aberrant methylation patterns can serve as early indicators of cancer.
-- Therapeutic targets: Drugs like DNMT inhibitors (e.g., azacitidine) aim to reverse abnormal methylation.
-- Personalized medicine: Methylation profiling helps tailor treatments based on individual epigenetic signatures.
-
-Tumorigenesis :  Also called as carcinogenesis/ oncogenisis, the biological process on how the normal cells transform into cancer cells, which involves series of genetic and epigenetic changes that distrupt the normal cell regulation. Three main stages of the tumorigenesis : 
-- Initiation : occurence of geetic mutation caused by carcinogens, radiation or inherited defets.
-- promotion: Mutated cell begins to proliferate abnormally(epigenetic changes can silence tumor supressor genes or activate oncogens.
-- progression : cells aquire more mutations, become morr abnormal and resistant to cell death forming a malignant tumor.
-
-Oncogens : Mutates or overexpressed genes rgar drive cell division.
-
-Epigenetic modification : A chemical change to DNA or to the proteins (histones) that package DNA, which affects how genes are turned on or off — without changing the DNA sequence itself. Types of epigenetic modifications :
-- DNA mytheliation
-- Histone Modificaion : DNA wraps around a protein called histones and how tightly it wraps around the proteisn affect the gene activity.
- Chemical chnages that effects gene activities :
-    acetylation : open DNA and activates gene
-    deactylation : tightens DNA and silences genes
-    Methylation, phosphorylation, ubiquitination, : Can either activate or supress gene depend on the site
-- Non coding RNA regulation : Small RNAs (like microRNAs) can block or degrade mRNA, preventing a gene from making its protein.
-
-----------
-## Structure of the DNA 
-
--  DNA/ RNA is double stranded and have two distinct ends. The ends are labeled according to the C atoms in the  sugar moelecule (deoxyribose or ribose) of the each neucleotide.
--  DNA is double stranded, which two strands are complimentary and anti parallel.
--  DNA follows spsecific base pairing rules ( A->T , T->A , G->C, C-> G)
--  Forward (coding) strand runs from 5'-> 3'  (eg: 5′ — A  T  G  C  G  T  A — 3′)
--  reverse complement(template) strand runs from 3'->5' ( eg:   3′ — T  A  C  G  C  A  T — 5′)
-
-What is 5' prime -> 3' prime mean ? 
-- 5′ (five-prime) end → has a phosphate group attached to the 5′ carbon of the sugar.
-- 3′ (three-prime) end → has a hydroxyl group (-OH) on the 3′ carbon of the sugar.
-- So, when DNA is synthesized, new nucleotides are always added to the 3′ end, never to the 5′ end.Hence, DNA (and RNA) grows from 5′ → 3′ direction.
-
-
-### DNA replication 
-- Copy entire DNA molecule before cell division, so that each daughter cell get a complete genome.
-- Helicase unwinds the double strand & DNA polymerase adds comlpementary bases to the 3' of each strand and synthesizes new strands.
-- Both strands are read in opposite directions but synthesized in the 5'-> 3' direction.
-- Molecule 1:
-  Old forward strand (5′→3′)
-  + New complementary reverse strand (3′→5′) --> Lagging strand made of fragments.
-
-Molecule 2:
-  Old reverse strand (3′→5′)
-  + New complementary forward strand (5′→3′) --> Leading strand continuous.
-
-### Transcription 
-- Process of buding a mRNA(messednger RNA) by using the template strand of the DNA ( RNA polymerase binds to promoter of the DNA strand) .
-- RNA is syntehseized in the 5'->3' direction.
-- Its sequence is identical to codinig DNA strand, except that thymine (T) in DNA is replaced by uracil (U) in RNA. 
- 
-### Transaltion
-
-- Process When the riboseomes biunds to the mRNA at the start codon( AUG) and build a protein using amino acids.
-- Uses mRNA which is complementary to the DNA templpate strand and identical to the DNA coding strand ( DNA isn't directly used).
-- mRNA reads in 5'->3' direction.
-- tRNA molecules bring amino acids matching each codon & Polypeptide chain forms until a stop codon is reached.
-
-In summary, the template strand is the one actively transcribed into RNA, while the coding strand mirrors the RNA sequence and determines the genetic code for protein synthesis.
-
-
 
 
 
