@@ -18,99 +18,14 @@ Tumor supressors are the gatekeepers of the key cell functionalities such as :
 
 Loss-of-function mutations in tumor suppressor genes disrupt their ability to regulate cell growth, repair DNA damage, and trigger apoptosis. As a result, cells may proliferate uncontrollably, accumulate genetic errors, and evade programmed cell death; hallmarks of cancer development. These critical roles make tumor suppressor genes highly valuable as clinically actionable targets for cancer prognosis, risk assessment, and therapeutic decision-making.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----------------------------------------------
-## Types of chromosomes 
-
-TP53 (Chromosome 17)
-RB1 (Chromosome 13)
-BRCA1 (Chromosome 17)
-BRCA2 (Chromosome 13)
-CDKN2A( Chromosome 9)
-PTEN (Chromosome 10)
+Tumor supressors fragments or pseudogenes may appear in  non-canonical ochromosomes as well, due to duplication or assembly artifacts. For reproducable analysis only canonical chromosomes are considered  and the follwowings are the major tumor supressors analyzed in this project.
+
+- TP53 (Chromosome 17)
+- RB1 (Chromosome 13)
+- BRCA1 (Chromosome 17)
+- BRCA2 (Chromosome 13)
+- CDKN2A( Chromosome 9)
+- PTEN (Chromosome 10)
 
 
 
