@@ -6,8 +6,9 @@ Analyzing large volumes of biological data, especially in oncogenomics, presents
 Bioinformatics enables researchers the analysis and interpretation of complex genetic data, identification of mutations, prediction of their impact, and integration of diverse data types such as genomic, transcriptomic, and proteomic data. By using computationaly analyzed data, clinicians can match genetic profiles to targeted therapies, predict treatment responses, and design personalized treatment plans based on a patient’s unique molecular signature. This ultumately transforms the raw genomic data into actionable insights, bridging the gap between complex biology and individualized cancer care.
 
 
+## Project  Goal 
 
-
+The primary objective of this project is to develop a modular DNA sequence analysis pipeline that operates on biologicaly meaningful fragments of the human genome. Some meaningful segments of the genome are  Rather than analyzing on the entire  chromosome, which spans on millions of base pairs, the pipline focuses  on the targeted gene regions of the canonical chromosomes. By extracting specific genomic intervals of the chromosome, the workflow enables precise computation of the GC content, identification of the open reading frames(ORF), transcription of DNA to RNA and translation of RNA to proteins. This  approach supports the annotation, mutation profiling and biological intepreattion of the genomic data laying the foundation for the scalable and reproducable analysis in the bioinformatics and genomic reserch. 
 
 
 
