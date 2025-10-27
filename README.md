@@ -8,7 +8,17 @@ Bioinformatics enables researchers the analysis and interpretation of complex ge
 
 ## Project  Goal 
 
-The primary objective of this project is to  build a modular DNA sequence analysis pipeline that focuses on biologically significant regions of the human genome—such as genes, promoters, enhancers, coding sequences (CDS), and exons—rather than entire chromosomes, which span millions of base pairs. Specifically, the pipeline targets **tumor suppressor genes**, which are essential for regulating cell cycle progression, DNA repair, and apoptosis, but are frequently mutated in human cancers. By extracting genomic sequences from these targeted regions on canonical chromosomes, the pipeline enables precise computation of GC content, identification of open reading frames (ORFs), transcription of DNA to RNA, and translation of RNA to proteins. This focused approach supports accurate annotation, mutation profiling, and biological interpretation of genomic data, laying a foundation for scalable and reproducible analysis in bioinformatics and cancer genomics research.
+The primary objective of this project is to  build a modular DNA sequence analysis pipeline that focuses on biologically significant regions of the human genome such as genes, promoters, enhancers, coding sequences (CDS), and exons—rather than entire chromosomes, which span millions of base pairs. Specifically, the pipeline targets **tumor suppressor genes**, which are essential for regulating cell cycle progression, DNA repair, and apoptosis, but are frequently mutated in human cancers. By extracting genomic sequences from these targeted regions on canonical chromosomes, the pipeline enables precise computation of GC content, identification of open reading frames (ORFs), transcription of DNA to RNA, and translation of RNA to proteins. This focused approach supports accurate annotation, mutation profiling, and biological interpretation of genomic data, laying a foundation for scalable and reproducible analysis in bioinformatics and cancer genomics research.
+
+## Imprtance of Tumor Supressor genes 
+Tumor supressors are the gatekeepers of the key cell functionalities such as : 
+- cell cyclce progression ( Gene TP53 act as a cell cycle checkpoint and halts the cell division, if DNA is damaged).
+- DNA repair(Genes like BRCA1 or BRCA2 fix double strand breaks in the structure of the DNA and repairs).
+- Apoptosis( Gene TP53 activates the death signal when the cell damage is irreplacable programmed cell death).
+
+Loss-of-function mutations in tumor suppressor genes disrupt their ability to regulate cell growth, repair DNA damage, and trigger apoptosis. As a result, cells may proliferate uncontrollably, accumulate genetic errors, and evade programmed cell death; hallmarks of cancer development. These critical roles make tumor suppressor genes highly valuable as clinically actionable targets for cancer prognosis, risk assessment, and therapeutic decision-making.
+
+
 
 
 
