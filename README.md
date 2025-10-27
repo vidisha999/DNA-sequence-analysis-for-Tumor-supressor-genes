@@ -8,9 +8,7 @@ Bioinformatics enables researchers the analysis and interpretation of complex ge
 
 ## Project  Goal 
 
-The primary objective of this project is to develop a modular DNA sequence analysis pipeline that operates on biologicaly meaningful fragments of the human genome. Some meaningful segments of the genome are  Rather than analyzing on the entire  chromosome, which spans on millions of base pairs, the pipline focuses  on the targeted gene regions of the canonical chromosomes. By extracting specific genomic intervals of the chromosome, the workflow enables precise computation of the GC content, identification of the open reading frames(ORF), transcription of DNA to RNA and translation of RNA to proteins. This  approach supports the annotation, mutation profiling and biological intepreattion of the genomic data laying the foundation for the scalable and reproducable analysis in the bioinformatics and genomic reserch. 
-
-
+The primary objective of this project is to  build a modular DNA sequence analysis pipeline that focuses on biologically significant regions of the human genome—such as genes, promoters, enhancers, coding sequences (CDS), and exons—rather than entire chromosomes, which span millions of base pairs. Specifically, the pipeline targets **tumor suppressor genes**, which are essential for regulating cell cycle progression, DNA repair, and apoptosis, but are frequently mutated in human cancers. By extracting genomic sequences from these targeted regions on canonical chromosomes, the pipeline enables precise computation of GC content, identification of open reading frames (ORFs), transcription of DNA to RNA, and translation of RNA to proteins. This focused approach supports accurate annotation, mutation profiling, and biological interpretation of genomic data, laying a foundation for scalable and reproducible analysis in bioinformatics and cancer genomics research.
 
 
 
