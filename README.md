@@ -27,7 +27,7 @@ Tumor supressors fragments or pseudogenes may appear in  non-canonical ochromoso
 - CDKN2A( Chromosome 9)
 - PTEN (Chromosome 10)
 
-
+## Data
 
 
 
