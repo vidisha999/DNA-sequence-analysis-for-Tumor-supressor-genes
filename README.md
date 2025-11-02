@@ -10,7 +10,7 @@ Bioinformatics enables researchers the analysis and interpretation of complex ge
 
 The primary objective of this project is to  build a modular DNA sequence analysis pipeline that focuses on biologically significant regions of the human genome such as genes, promoters, enhancers, coding sequences (CDS), and exons—rather than entire chromosomes, which span millions of base pairs. Specifically, the pipeline targets **tumor suppressor genes**, which are essential for regulating cell cycle progression, DNA repair, and apoptosis, but are frequently mutated in human cancers. By extracting genomic sequences from these targeted regions on canonical chromosomes, the pipeline enables precise computation of GC content, identification of open reading frames (ORFs), transcription of DNA to RNA, and translation of RNA to proteins. This focused approach supports accurate annotation, mutation profiling, and biological interpretation of genomic data, laying a foundation for scalable and reproducible analysis in bioinformatics and cancer genomics research.
 
-## Imprtance of Tumor Supressor genes 
+## Importance of Tumor Supressor genes 
 Tumor supressors are the gatekeepers of the key cell functionalities such as : 
 - cell cyclce progression ( Gene TP53 act as a cell cycle checkpoint and halts the cell division, if DNA is damaged).
 - DNA repair(Genes like BRCA1 or BRCA2 fix double strand breaks in the structure of the DNA and repairs).
@@ -28,10 +28,15 @@ Tumor supressors fragments or pseudogenes may appear in  non-canonical ochromoso
 - PTEN (Chromosome 10)
 
 ## Data
+  The data for this project is obtained from the Ensembl FASTA file, which is a text-based biological data file provided by the [Ensembl Genome Database](https://useast.ensembl.org/info/data/ftp/index.html) Project. It contains nucleotide (DNA/RNA) or protein sequences for a particular organism in FASTA format. In order to analyze the  DNA sequences of the Human genome, Human reference genome of assembly version **GRCh38** is used.
+
+  The human reference genome is an assembled mosaic of fromo multiple individuals that serves as a baseline for comparison in genetics. It represents the most common DNA sequence found across many people.It includes all 22 autosomes, the X and Y sex chromosomes, and the mitochondrial DNA (MT). It also contains 261 alternate loci representing complex regions like MHC and LRC/KIR, around 169 unplaced scaffolds not assigned to specific chromosomes, and centromere sequences, making it a more complete human genome reference.
 
 
 
+## Exploratory Data Analysis 
 
+This shows GRCh38, human genome contains many unplaced genomic scaffolds. They are a DNA sequence which is part of the genome, but has not been confidently assigned to a specific location on any chromosome. These exist because some regions in the genome are hard to assemble due to repetitive sequences, structural complpexity and low sequence coverage. If analyzing novel gene discovery or strucural variations, these scaffolds are worth exploring. But since the project goal is to analyze the DNA sequence,canonical chromosomes will be filtered.
 
 
 
