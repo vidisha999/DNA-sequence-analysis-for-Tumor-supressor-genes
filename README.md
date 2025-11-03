@@ -52,9 +52,13 @@ GC content refers to the proportion of guanine (G) and cytosine (C) bases in DNA
 
 GC-rich regions in tumor suppressor genes are biologically significant because they are prone to methylation at CpG sites, which can silence gene expression—a common mechanism in cancer. Aberrant methylation of GC-rich promoters can lead to gene silencing and contribute to tumorigenesis. Additionally, understanding GC content aids in designing targeted therapies and diagnostic tools such as PCR primers and probes. It also supports comparative genomics by enabling the analysis of tumor suppressor genes across species or between normal and cancerous tissue.
 
+### Visualization of the GC content across each gene
 
+The following plot shows the use of a sliding window of fixed length(500) across the  DNA sequence of each gene to identify the local GC variation; the GC rich and poor regions on the gene.
 
+![image1](Images/img1.png)
 
+*Image1: The sliding window plots showing the local GC variation across genes*
 
 
 
