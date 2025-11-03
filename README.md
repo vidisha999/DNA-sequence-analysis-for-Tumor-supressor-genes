@@ -88,7 +88,11 @@ the following graph shows the top three longest ORFs for the each gene.
   The chart comparing the top three longest ORFs across tumor suppressor genes highlights key biological differences in their coding potential. Genes like BRCA2 and BRCA1 show significantly longer ORFs, suggesting they encode large, multifunctional proteins essential for DNA repair. In contrast, genes such as CDKN2A and PTEN have shorter ORFs, consistent with their roles as compact regulators of cell cycle and signaling. These length differences reflect the functional diversity among tumor suppressors and can guide experimental priorities, longer ORFs may be targeted for functional domain mapping or protein modeling, while shorter ones may indicate alternative isoforms or regulatory peptides.
 
 
+![image4](Images/img6.png)
 
+  * Image4: pORF maps for tumor supressor genes
+
+The ORF maps for each tumor suppressor gene reveal how coding potential is distributed across all six reading frames. Genes like BRCA2 and BRCA1 show dense clusters of ORFs in specific frames, suggesting strong directional transcription and well-defined coding regions. In contrast, genes like PTEN and CDKN2A display shorter and more dispersed ORFs, which may reflect compact protein-coding regions or alternative translation possibilities. The presence of ORFs on both strands and across multiple frames highlights the complexity of gene architecture and the importance of strand-aware analysis when predicting functional transcripts. These visualizations help pinpoint the dominant coding frame and guide downstream translation and peptide modeling.
 
 
 
