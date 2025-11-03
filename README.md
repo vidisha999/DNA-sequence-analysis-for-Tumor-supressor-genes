@@ -47,5 +47,16 @@ FASTA file contained the actual DNA sequence of each chromosome and raw sequence
 
 The extracted sequences of the tumor supressor genes of the canonical chromosomes were saved and written to a seperate FASTA file named  **"tumor_suppressors.fa"**, which would make it easier to use in downstream analysis. 
 
+## GC content Calculation 
+GC content refers to the proportion of guanine (G) and cytosine (C) bases in DNA, which influences both biological and technical aspects of the DNA. High GC regions provide greater thermal stability due to stronger hydrogen bonding, play a key role in gene regulation through promoters and CpG islands, and affect mutation rates and DNA repair. However, they can also complicate sequencing and PCR amplification. 
+
+GC-rich regions in tumor suppressor genes are biologically significant because they are prone to methylation at CpG sites, which can silence gene expression—a common mechanism in cancer. Aberrant methylation of GC-rich promoters can lead to gene silencing and contribute to tumorigenesis. Additionally, understanding GC content aids in designing targeted therapies and diagnostic tools such as PCR primers and probes. It also supports comparative genomics by enabling the analysis of tumor suppressor genes across species or between normal and cancerous tissue.
+
+
+
+
+
+
+
 
 
