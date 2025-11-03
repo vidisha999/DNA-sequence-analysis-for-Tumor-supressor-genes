@@ -61,6 +61,13 @@ The following plot shows the use of a sliding window of fixed length(500) across
 *Image1: The sliding window plots showing the local GC variation across genes*
 
 
+GC content patterns vary across tumor suppressor genes, reflecting differences in structure and function. **CDKN2A** and **RB1** show strong GC% fluctuations, indicating regulatory regions or intron–exon transitions, while **PTEN** and **BRCA2** maintain steadier GC levels typical of stable coding regions. **BRCA1** exhibits moderate GC% with occasional peaks which could corresponds to functional exons, and **TP53** shows balanced GC content, consistent with its conserved role in genome protection. These patterns provide insights into gene regulation, stability, and potential functional elements.
 
+
+The GC content heatmap below  plots the GC content for each gene across their chromosome shows the comparative GC levels amoong tumor supressor genes and chromosome-Specific Patterns, highlighting whether certain chromosomes tend to have GC-rich regions for these genes.
+
+![image2](Images/img3.png)
+
+*Image2: GC content distribution ( genes x Chromosomes)*
 
 
