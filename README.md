@@ -90,7 +90,7 @@ the following graph shows the top three longest ORFs for the each gene.
 
 ![image4](Images/img6.png)
 
-  * Image4: pORF maps for tumor supressor genes
+*Image4: pORF maps for tumor supressor genes*
 
 The ORF maps for each tumor suppressor gene reveal how coding potential is distributed across all six reading frames. Genes like BRCA2 and BRCA1 show dense clusters of ORFs in specific frames, suggesting strong directional transcription and well-defined coding regions. In contrast, genes like PTEN and CDKN2A display shorter and more dispersed ORFs, which may reflect compact protein-coding regions or alternative translation possibilities. The presence of ORFs on both strands and across multiple frames highlights the complexity of gene architecture and the importance of strand-aware analysis when predicting functional transcripts. These visualizations help pinpoint the dominant coding frame and guide downstream translation and peptide modeling.
 
