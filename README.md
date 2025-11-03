@@ -36,8 +36,10 @@ Tumor supressors fragments or pseudogenes may appear in  non-canonical ochromoso
 
 ## Exploratory Data Analysis 
 
-This shows GRCh38, human genome contains many unplaced genomic scaffolds. They are a DNA sequence which is part of the genome, but has not been confidently assigned to a specific location on any chromosome. These exist because some regions in the genome are hard to assemble due to repetitive sequences, structural complpexity and low sequence coverage. If analyzing novel gene discovery or strucural variations, these scaffolds are worth exploring. But since the project goal is to analyze the DNA sequence,canonical chromosomes will be filtered.
+Based on the initial analysis performed on the GRCh38 priary assembly, it shows the human genome contains  many unplaced genomic scaffolds and some chromosomes contain undetermined nucleotides which were represented by "N" in the sequence. Scaffolds are a DNA sequence which is part of the genome, but has not been confidently assigned to a specific location on any chromosome. These exist because some regions in the genome are hard to assemble due to repetitive sequences, structural complpexity and low sequence coverage. If analyzing novel gene discovery or strucural variations, these scaffolds are worth exploring. But since the project goal is to analyze the DNA sequence,canonical chromosomes were being filtered. 
 
+
+The project focuses on analyzing tumor suppressor genes located on canonical chromosomes to ensure reliable and interpretable results. Unplaced genomic scaffolds are excluded due to challenges in genome assembly and uncertain chromosomal mapping. By prioritizing well-characterized genes like TP53, RB1, BRCA1, BRCA2, CDKN2A, and PTEN—mapped to chromosomes 9, 10, 13, and 17—the study aims to better understand their molecular features and roles in cancer biology.
 
 
 
