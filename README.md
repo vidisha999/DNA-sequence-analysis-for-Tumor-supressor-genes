@@ -79,6 +79,13 @@ ORF detection identifies protein-coding regions in DNA by locating stretches tha
 
 DNA can have 6 possible biologically relevant ORFS, three on the forward strand and other three on the reverse complement strand( which are not read by riboseomes in the transaltion). The results shows each tumor supressor genes got more than hundreds of computational ORFs, because it typically identify any stretch of codons without a stop codon, not just the biologically relevant coding sequence. It may includes Small ORFs (sORFs) within introns or UTRs and non-coding regions that happen to lack stop codons for a while.
 
+the following graph shows the top three longest ORFs for the each gene. 
+
+ ![image3](Images/img7.png)
+
+  *Image3: Top three longest ORFs per each tumor supressor gene*
+   
+  The chart comparing the top three longest ORFs across tumor suppressor genes highlights key biological differences in their coding potential. Genes like BRCA2 and BRCA1 show significantly longer ORFs, suggesting they encode large, multifunctional proteins essential for DNA repair. In contrast, genes such as CDKN2A and PTEN have shorter ORFs, consistent with their roles as compact regulators of cell cycle and signaling. These length differences reflect the functional diversity among tumor suppressors and can guide experimental priorities, longer ORFs may be targeted for functional domain mapping or protein modeling, while shorter ones may indicate alternative isoforms or regulatory peptides.
 
 
 
