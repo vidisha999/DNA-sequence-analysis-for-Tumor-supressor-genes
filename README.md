@@ -72,11 +72,12 @@ The GC content heatmap below  plots the GC content for each gene across their ch
 
 The GC heatmap shows the GC content for each gene on its respective chromosome, reflecting the sequence composition of those genes. **TP53** on chromosome 17 has the highest GC content at **49%**, while **PTEN** on chromosome 10 is lower at **36%**. CDKN2A on chromosome 9 is moderately high at 41%, BRCA1 on chromosome 17 has 44%, and BRCA2 on chromosome 13 is at 38%. This variation highlights differences in sequence composition and potential functional or structural characteristics among these tumor suppressor genes.
 
-**ORF(Open Reading Frame) Detection**
+## ORF(Open Reading Frame) Detection
 
 
+ORF detection identifies protein-coding regions in DNA by locating stretches that start with a start codon (ATG) and end with a stop codon (TAA, TAG, TGA), maintaining the same reading frame without interruptions. These regions contain codons (triplets of bases) that encode amino acids. Reading frames determine how nucleotides are grouped into codons, and only one frame produces the correct functional protein. ORF detection is crucial because tumor suppressor genes and oncogenes often have mutations that disrupt ORFs or create alternative ones, leading to nonfunctional or harmful proteins. Detecting ORFs helps pinpoint frameshift mutations, identify alternative protein isoforms, annotate new protein coding regions, and distinguish functional genes from pseudogenes. Overall, ORF analysis is essential for understanding mutations in cancer-related genes and designing targeted therapies to restore lost function.
 
-
+DNA can have 6 possible biologically relevant ORFS, three on the forward strand and other three on the reverse complement strand( which are not read by riboseomes in the transaltion). The results shows each tumor supressor genes got more than hundreds of computational ORFs, because it typically identify any stretch of codons without a stop codon, not just the biologically relevant coding sequence. It may includes Small ORFs (sORFs) within introns or UTRs and non-coding regions that happen to lack stop codons for a while.
 
 
 
