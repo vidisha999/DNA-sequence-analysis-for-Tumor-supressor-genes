@@ -43,5 +43,9 @@ The project focuses on analyzing tumor suppressor genes located on canonical chr
 ## Extracting Tumor Supressor Genes of canonical Chromosomes 
 In order to extract the location co-ordinates of a specific genes located in any particular part of the chromosome, the GTF annotation file was used. **"Homo_sapiens.GRCH38.110.gtf"** is use for genome annotation where each row describes a genomic feature of the chromosome such as gene, exons or coding sequence(CDS). Each row represented a chromosome of the human genome, it has columns named `chr`,`source`,`feature_type`,`start`,`end`,`score`,`strand`,`frame`,`attributes`. The `atrributes` columns contained important metadata such as the name of the genomic fearure and its ID. 
 
-FASTA file contained the actual DNA sequence of each chromosome and raw sequence data. AFter extracting the location co-ordinates of the specific gene, the DNA sequence of the FASTA file is sliced based on those cordinates to extract the filtered DNA sequence of the specific gene. If the DNA strand is negative ("-"), it should be reverese complemented when extracting, because  obtaining the coding DNA strand in its primary direction 5'-> 3' is critical in gene analysis.
+FASTA file contained the actual DNA sequence of each chromosome and raw sequence data. AFter extracting the location co-ordinates of the specific gene, the DNA sequence of the FASTA file is sliced based on those cordinates to extract the filtered DNA sequence of the specific gene. If the DNA strand is negative ("-"), it should be reverese complemented when extracting, because  obtaining the coding DNA strand in its primary direction 5'-> 3' is critical in gene analysis. 
+
+The extracted sequences of the tumor supressor genes of the canonical chromosomes were saved and written to a seperate FASTA file named  **"tumor_suppressors.fa"**, which would make it easier to use in downstream analysis. 
+
+
 
