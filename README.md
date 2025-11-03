@@ -58,7 +58,7 @@ The following plot shows the use of a sliding window of fixed length(500) across
 
 ![image1](Images/img1.png)
 
-*Image1: The sliding window plots showing the local GC variation across genes*
+   *Image1: The sliding window plots showing the local GC variation across genes*
 
 
 GC content patterns vary across tumor suppressor genes, reflecting differences in structure and function. **CDKN2A** and **RB1** show strong GC% fluctuations, indicating regulatory regions or intron–exon transitions, while **PTEN** and **BRCA2** maintain steadier GC levels typical of stable coding regions. **BRCA1** exhibits moderate GC% with occasional peaks which could corresponds to functional exons, and **TP53** shows balanced GC content, consistent with its conserved role in genome protection. These patterns provide insights into gene regulation, stability, and potential functional elements.
@@ -68,6 +68,21 @@ The GC content heatmap below  plots the GC content for each gene across their ch
 
 ![image2](Images/img3.png)
 
-*Image2: GC content distribution ( genes x Chromosomes)*
+   *Image2: GC content distribution ( genes x Chromosomes)*
+
+The GC heatmap shows the GC content for each gene on its respective chromosome, reflecting the sequence composition of those genes. **TP53** on chromosome 17 has the highest GC content at **49%**, while **PTEN** on chromosome 10 is lower at **36%**. CDKN2A on chromosome 9 is moderately high at 41%, BRCA1 on chromosome 17 has 44%, and BRCA2 on chromosome 13 is at 38%. This variation highlights differences in sequence composition and potential functional or structural characteristics among these tumor suppressor genes.
+
+**ORF(Open Reading Frame) Detection**
+
+
+
+
+
+
+
+
+
+
+
 
 
