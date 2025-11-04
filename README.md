@@ -95,6 +95,75 @@ the following graph shows the top three longest ORFs for the each gene.
 The ORF maps for each tumor suppressor gene reveal how coding potential is distributed across all six reading frames. Genes like BRCA2 and BRCA1 show dense clusters of ORFs in specific frames, suggesting strong directional transcription and well-defined coding regions. In contrast, genes like PTEN and CDKN2A display shorter and more dispersed ORFs, which may reflect compact protein-coding regions or alternative translation possibilities. The presence of ORFs on both strands and across multiple frames highlights the complexity of gene architecture and the importance of strand-aware analysis when predicting functional transcripts. These visualizations help pinpoint the dominant coding frame and guide downstream translation and peptide modeling.
 
 
+## Transcription (DNA to mRNA )  & Translation(mRNA to Protein)
+
+Transcription is the process of synthesizing messenger RNA (mRNA) using the template strand of DNA. RNA polymerase binds to the promoter region and builds the RNA strand in the 5′ to 3′ direction. The resulting mRNA sequence is nearly identical to the coding DNA strand, except that thymine (T) is replaced by uracil (U).
+
+Translation is the process by which ribosomes read the mRNA sequence, starting at the AUG codon, and assemble a protein by linking amino acids. The mRNA, transcribed from the DNA template strand, is read in the 5′ to 3′ direction. Transfer RNA (tRNA) molecules bring amino acids that match each codon, forming a polypeptide chain until a stop codon signals termination. While the template strand guides RNA synthesis, the coding strand mirrors the mRNA and defines the genetic code used for protein production.
+```
+ TP53
+mRNA: AUGGAGGAGCCGCAGUCAGAUCCUAGCGUCGAGCCCCCUCUGAGUCAGGAAACAUUUUCA...
+Protein: MEEPQSDPSVEPPLSQETFSDLWKLWRSRSQILASSPL...
+
+ BRCA1
+mRNA: AUGGAUGGAUUUAUCUGCUCUUCGCGUUGAAGAAGUACAAAAUGUCAUUAAUGCUAUGCA...
+Protein: MDGFICSSR...
+
+ BRCA2
+mRNA: AUGCCUAUUGGAUCCAAAGAGAGGCCAACAUUUUUUGAAAUUUUUAAGACACGCUGCAAC...
+Protein: MPIGSKERPTFFEIFKTRCNKADAYWIQREANIF...
+
+ PTEN
+mRNA: CUGGAGCGGGGGGGAGAAGCGGCGGCGGCGGCGGCCGCGGCGGCUGCAGCUCCAGGGAGG...
+Protein: LERGGEAAAAAAAAAAAPGRGSESPVTISRAGNAGELVSPLLLPPTRRRRRRHIQGPGPV...
+
+ RB1
+mRNA: AUGCCGCCCAAAACCCCCCGAAAAACGGCCGCCACCGCCGCCGCUGCCGCCGCGGAACCC...
+Protein: MPPKTPRKTAATAAAAAAEPPAPPPPPPPEEDPEQDSGPEDLPLVRCRPKPPEKRPPPPP...
+
+ CDKN2A
+mRNA: AUGGUGCGCAGGUUCUUGGUGACCCUCCGGAUUCGGCGCGCGUGCGGCCCGCCGCGAGUG...
+Protein: MVRRFLVTLRIRRACGPPRVRVFVVHIPRLTGEWAAPGAPAAVALVLMLLRSQRLGQQPL...
+```
+This shows the results gained for the mRNA synthesized and , corresponding protein( amino acids) translated from that mRNA for each tumor supressor gene.
+
+![image7](Images/img8.png)
+
+ *Image 5: Codon Frequency Chart*
+
+ The codon usage frequency chart across tumor suppressor genes reveals a clear bias toward certain codons, such as GAA,AAA,AAT and AGA, which appear more frequently than others. This pattern suggests a strong bias toward encoding amino acids like glutamic acid (GAA), lysine (AAA), asparagine (AAT), and arginine (AGA)—all of which play important roles in protein structure and function. Their high usage may reflect conserved functional domains, charge-based interactions, or regulatory motifs essential for tumor suppressor activity. 
+ 
+ Codon bias can influence translation efficiency, protein folding, and overall gene expression, making it a key factor in understanding how tumor suppressors operate at the molecular level. Such insights are valuable for optimizing gene expression in experimental systems and for exploring how mutations might disrupt normal protein synthesis in cancer.
+
+
+
+![image9](Images/img10.png)
+
+ *Image 6: mRNA length comparison across tumor supressor genes*
+
+ The above bar chart reveals substantial variation amaong lengths of mRNAs , with BRCA1 and BRCA2 showing the longest transcripts (~100,000 and ~95,000 nucleotides, respectively), while CDKN2A and RB1 have much shorter mRNAs (~5,000–8,000 nucleotides). These differences reflect the complexity of gene architecture; longer mRNAs often result from extensive exon content, alternative splicing, or regulatory regions, and may encode large, multifunctional proteins. In contrast, shorter mRNAs typically correspond to compact genes with fewer exons or simpler regulatory control. Understanding mRNA length is crucial for assessing transcriptional burden, predicting translation efficiency, and identifying potential vulnerabilities in cancer-related pathways. 
+
+
+![image8](Images/img9.png)
+
+ *Image 7: Protein length comparison across tumor supressor genes*
+
+PTEN stands out with the longest protein, exceeding 200 amino acids, which aligns with its role as a multifunctional phosphatase involved in cell signaling and tumor suppression. RB1 and CDKN2A produce moderately sized proteins, consistent with their roles in cell cycle regulation.In contrast, TP53 and BRCA2 encode shorter proteins, which may reflect partial transcripts or truncated isoforms in this analysis. BRCA1 shows the shortest protein length, under 25 amino acids, which is unexpected given its known full-length size.
+
+This observation suggests that protein length often reflects functional complexity, with longer proteins typically containing multiple domains and regulatory motifs essential for diverse cellular roles. In contrast, shorter protein lengths may result from incomplete open reading frames (ORFs), alternative splicing events, or non-canonical transcripts. Comparing protein lengths across tumor suppressor genes provides valuable insight for prioritizing candidates in cancer research studies.
+
+## Conclusion
+This project successfully establishes a modular and biologically focused DNA sequence analysis pipeline tailored to tumor suppressor genes—key regulators of cell cycle control, DNA repair, and apoptosis. By targeting specific genomic regions such as CDS, exons, and promoters, the pipeline avoids the complexity of whole-chromosome analysis while enabling precise computation of GC content, ORF detection, transcription, and translation. The resulting visualizations and metrics provide meaningful insights into gene structure, codon usage, and protein-coding potential, supporting accurate annotation and mutation profiling. This streamlined, reproducible framework lays a strong foundation for scalable bioinformatics workflows and deepens our understanding of cancer-related genomic mechanisms.
+
+
+
+
+
+
+
+
+
+
 
 
 
